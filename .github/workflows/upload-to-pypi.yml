@@ -3,8 +3,9 @@ name: Upload package to Pypi
 on:
   push:
     branches:
-      - main
+      - win_arm64
       - 'release*'
+  
 
 jobs:
   make_sdist:
